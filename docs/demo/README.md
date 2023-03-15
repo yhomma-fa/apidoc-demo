@@ -2,4 +2,4 @@
 ここではAPIのデモを見ることができます
 
 ## Pages
-- [Petstore](./petstore.md)
+- [Demo](./demo.md)
