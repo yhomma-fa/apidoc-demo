@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1473bf53","path":"/demo/","title":"Demo Page","lang":"ja","frontmatter":{},"headers":[{"level":2,"title":"Pages","slug":"pages","link":"#pages","children":[]}],"git":{"updatedTime":1678866677000,"contributors":[{"name":"yhomma-fa","email":"homma.yoshitaka@fastaccounting.co.jp","commits":2}]},"filePathRelative":"demo/README.md"}');export{e as data};

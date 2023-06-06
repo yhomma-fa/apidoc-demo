@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Api Doc Demo</title><meta name="description" content="API仕様書のDemoです">
+    <link rel="preload" href="/apidoc-demo/assets/style-65347919.css" as="style"><link rel="stylesheet" href="/apidoc-demo/assets/style-65347919.css">
+    <link rel="modulepreload" href="/apidoc-demo/assets/app-8413c598.js"><link rel="modulepreload" href="/apidoc-demo/assets/framework-5866ffd3.js"><link rel="modulepreload" href="/apidoc-demo/assets/404.html-a3738472.js"><link rel="modulepreload" href="/apidoc-demo/assets/404.html-87d54bd8.js"><link rel="prefetch" href="/apidoc-demo/assets/index.html-a27d294a.js" as="script"><link rel="prefetch" href="/apidoc-demo/assets/index.html-19209128.js" as="script"><link rel="prefetch" href="/apidoc-demo/assets/demo.html-bb909ae7.js" as="script"><link rel="prefetch" href="/apidoc-demo/assets/index.html-dc01f18b.js" as="script"><link rel="prefetch" href="/apidoc-demo/assets/index.html-c2e6d6be.js" as="script"><link rel="prefetch" href="/apidoc-demo/assets/demo.html-57d4afd6.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/apidoc-demo/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/apidoc-demo/assets/app-8413c598.js" defer></script>
+  </body>
+</html>
